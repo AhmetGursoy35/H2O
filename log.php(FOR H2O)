@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="H2O.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGS</title>
+    <link rel="stylesheet" type="text/css" href="H2O.css">
+</head>
+
+<body style="background-color: #262626">
+    <a onclick="geri()"><button type="btn">Ana Sayfa</button></a>
+    <script>
+        function geri() {
+            history.back()
+        }
+    </script>
+    <table style="width:%100">
+
+    <tr>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>İD</th>
+        <th>Yükleme Miktarı</th>
+    </tr>    
+
+        <tr>
+            <th>Ahmet</th>
+            <th>Gürsoy</th>
+            <th>15432967825</th>
+            <th>20₺ + 60₺</th>
+        </tr>
+       
+        <tr>
+            <th>Ömer Safa</th>
+            <th>Aksu</th>
+            <th>82347651293</th>
+            <th>10₺ + 30₺</th>
+        </tr>
+       
+        <tr>
+            <th>Batuhan</th>
+            <th>Yılmaz</th>
+            <th>49671238549</th>
+            <th>49₺ + 20₺</th>
+        </tr>
+       
+        <tr>
+            <th>Esma</th>
+            <th>Savgı</th>
+            <th>27583496102</th>
+            <th>10₺ + 42₺</th>
+        </tr>
+      
+    </table>
+</body>
+</html>
